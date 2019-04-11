@@ -1,0 +1,56 @@
+html {
+    font-size: 1rem;
+}
+html, body {
+   margin: 0;
+   padding: 0;
+}
+body > * {
+   box-sizing: border-box;
+   font-family: 'Open Sans';
+}
+h1,h2,h3,h4,h5,h6 {
+   margin-top: 0;
+   text-transform: capitalize;
+}
+ul, p {
+   margin: 0;
+}
+p {
+   line-height: 1.5;
+}
+a {
+   text-decoration: none;
+   transition: opacity .15s ease-in-out;
+   font-weight: 600;
+   color: inherit;
+}
+a:hover {
+   opacity: .70;
+}
+img {
+   width: 100%;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1200px;
+}
+.section {
+    margin-bottom: 90px;
+}
+@media (min-width: 650px) {
+    html {
+        font-size: 1.125rem;
+    }
+    .container {
+        padding: 0 60px;
+    }
+    .section {
+        margin-bottom: 190px;
+    }
+    .body {
+        padding-right: 45px;
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,8 @@
+header h1 {
+    color: white;
+}
+.building img {
+    object-fit: cover;
+    object-position: center;
+    height: 150px;
+}
