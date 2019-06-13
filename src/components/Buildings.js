@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 import Building from './Building'
+
+const buildingsStyles = {
+    display: 'flex',
+    flexWrap: 'wrap'
+}
+
 export class Buildings extends Component {
   render() {
     return (
@@ -17,8 +23,3 @@ export class Buildings extends Component {
 }
 
 export default Buildings
-
-const buildingsStyles = {
-    display: 'flex',
-    flexWrap: 'wrap'
-}
