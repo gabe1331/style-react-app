@@ -23,8 +23,8 @@ export class Building extends Component {
             <div style={buildingStyles}>
                 <img src={buildingImg} alt="building"/>
                 <div style={buildingContentStyles}>
-                    <h3>{this.props.Building.title}</h3>
-                    <p>{this.props.Building.about}</p>
+                    <h3>Title</h3>
+                    <p>This is a description.</p>
                 </div>
             </div>
         </div>
